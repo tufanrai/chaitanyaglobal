@@ -176,9 +176,6 @@ const ContactUs = () => {
         {/* ── Hero ── */}
         <section className="w-full max-w-[1250px] mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 flex flex-col items-center gap-3 text-center">
           <FadeUp>
-            <span className="inline-block px-3 py-1 text-xs font-semibold bg-sky-100 text-sky-600 rounded-full mb-2">
-              WE&apos;RE HERE TO HELP
-            </span>
             <h1 className="font-bold text-3xl sm:text-4xl text-neutral-800 leading-tight">
               Contact Us
             </h1>
