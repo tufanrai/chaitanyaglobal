@@ -333,12 +333,12 @@ const HomePage = () => {
                 transition:
                   "opacity 0.7s ease 400ms, transform 0.7s ease 400ms",
               }}
-              className="flex flex-col xs:flex-row gap-3"
+              className="flex flex-row gap-3"
             >
-              <button className="cta-btn px-6 py-2.5 rounded-md bg-sky-500 text-white text-sm font-medium shadow-md shadow-sky-400/40 w-full xs:w-auto">
+              <button className="max-w-50 cta-btn px-6 py-2.5 rounded-md bg-sky-500 text-white text-sm font-medium shadow-md shadow-sky-400/40 w-full xs:w-auto">
                 Get a Quote
               </button>
-              <button className="outline-btn px-6 py-2.5 rounded-md border border-sky-500 text-sky-600 hover:bg-sky-500 hover:text-white text-sm font-medium w-full xs:w-auto">
+              <button className="max-w-50 outline-btn px-6 py-2.5 rounded-md border border-sky-500 text-sky-600 hover:bg-sky-500 hover:text-white text-sm font-medium w-full xs:w-auto">
                 Explore Destinations
               </button>
             </div>
@@ -364,7 +364,7 @@ const HomePage = () => {
 
         {/* ── About ── */}
         <section className="w-full bg-gradient-to-br from-neutral-100 to-white py-14 md:py-20">
-          <div className="max-w-[1250px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-10 lg:gap-20">
+          <div className="max-w-[1250px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20">
             {/* image block */}
             <FadeUp className="w-full lg:w-auto flex-shrink-0 flex justify-center">
               <div className="relative">
