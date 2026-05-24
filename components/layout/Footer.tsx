@@ -27,7 +27,7 @@ const quickLinks: INav[] = [
   { name: "Universities", url: "/universities" },
 ];
 
-const resourcesLink: INav[] = [{ name: "FAQs", url: "/faqs" }];
+const resourcesLink: INav[] = [{ name: "FAQs", url: "/faq" }];
 
 const contactLinks: IContacts[] = [
   {
