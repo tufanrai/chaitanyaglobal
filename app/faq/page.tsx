@@ -1,9 +1,5 @@
-import React from "react";
 import FAQ from "@/components/FAQ";
 
-
-const page = () => {
+export default function Page() {
   return <FAQ />;
-};
-
-export default page;
+}
