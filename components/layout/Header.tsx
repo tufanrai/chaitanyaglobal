@@ -15,6 +15,7 @@ const navigationList: INav[] = [
   { name: "Destination", url: "/destinations" },
   { name: "Contact", url: "/contact" },
   { name: "Universities", url: "/universities" },
+   {name:"FAQ" ,url:"/faq"},
 ];
 
 const Header = () => {
